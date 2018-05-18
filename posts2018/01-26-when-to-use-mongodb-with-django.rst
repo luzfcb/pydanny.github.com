@@ -18,9 +18,10 @@ Long Answer
 
 First off, let's get one thing out of the way. This isn't a bash on MongoDB. MongoDB works great with lots of things (Flask, Tornado, Node, etc), but it's a mismatch with Django. In other words, this article is about using the right tool for the right job.
 
-Second, I'm not speaking from ignorance. In fact, I have quite a bit of experience combining MongoDB and Django. You can see some of my early work with combining these tools in the defunct `django-mongonaut`_.
+Second, I'm not speaking from ignorance. In fact, I have quite a bit of experience combining MongoDB and Django. You can see some of my early work with combining these tools in the defunct `django-mongonaut`_ ( ok, it's now maintained collaboratively by the `jazzband`_ organization).
 
-.. _`django-mongonaut`: https://www.pydanny.com/pretty-formatting-json-django-admin.html
+.. _`django-mongonaut`: https://github.com/jazzband/django-mongonaut
+.. _`jazzband`: https://jazzband.co
 
 Okay then, let's get into the background of this post: On various Django help forums, you'll hear requests from new-ish Django developers on how to use MongoDB with Django. Most of the time they want to replace the Django ORM with calls to MongoDB. Here are the reasons I've heard so far.
 
